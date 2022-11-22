@@ -1,5 +1,15 @@
 package org.server.MainServer;
 
-public class ServerSocketThread {
+import java.net.Socket;
 
+public class ServerSocketThread extends Thread{
+
+    public ServerSocketThread(MainServer server, Socket socket){
+
+    }
+
+    @Override
+    public void run(){
+
+    }
 }
