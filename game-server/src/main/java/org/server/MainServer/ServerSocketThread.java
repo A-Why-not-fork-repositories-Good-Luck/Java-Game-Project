@@ -16,7 +16,7 @@ public class ServerSocketThread extends Thread{
     }
 
     public void sendMessage(String str){
-        out.println(str); 
+        out.println(str);
     }
 
     @Override
